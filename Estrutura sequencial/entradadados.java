@@ -39,6 +39,8 @@ public class entradadados {
 //System.out.println(y);
 //System.out.println(z);
 
+// 
+
         
 
 
