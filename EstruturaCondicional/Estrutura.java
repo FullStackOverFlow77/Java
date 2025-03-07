@@ -1,14 +1,26 @@
 package EstruturaCondicional;
+import java.util.Scanner;
 public class Estrutura{
     public static void main (String[]args) {
+        Scanner sc = new Scanner (System.in);
         
-        int x = 5 ;
+        int hora ; 
+        System.out.println("Que horas são: ");
+        hora = sc.nextInt();
         
-        System.out.println("Bom dia");
-        
-        if (x > 2) {
-            System.out.println("Boa tarde");
+        if (hora < 12) { 
+            System.out.println("Bom dia");
             }
-        System.out.println("Boa noite");
+        
+        else if (hora < 18) {
+            System.out.println("Boa tarde ! ");
+                }
+        else {
+            System.out.println("Boa noite ! ");
+            }
+            
+        
+
+        sc.close();
     }
 }
