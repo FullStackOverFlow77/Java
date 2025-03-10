@@ -6,7 +6,7 @@ public class Exampletwo {
         int N = sc.nextInt(); 
         int soma = 0;
 
-        for (int i=0;i < N; i+=1){
+        for (int i=0; i < N; i+=1){
             int x = sc.nextInt();
             soma +=x;
 
